@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Calculadora de gorjetas</title>
+</head>
+<body>
+    <div id="inicio"> 
+        <div> 
+            <h1 class="title"> Calculadora de Gorjetas </h1>
+        </div>
+        <div>
+            <form class="conta" id="conta">
+                <label for="bill">
+                    <p> Qual o valor da conta?</p>
+                </label>
+
+                <p>
+                    R$<input type="number" placeholder="100" name="bill" id="bill" class="forminput">
+                </p>
+
+                <label for="serviceQual">
+                    <p> Como avalia o atendimento?</p>
+                </label>
+                <p>
+                    <select name="serviceQual" id="serviceQual" class="forminput">
+                        <option disable selected > Escolha uma opção</option >
+                        <option value="0.3">30% - Incrível</option>
+                        <option value="0.2">20% - Bom</option>
+                        <option value="0.15">15% - Aceitável</option>
+                        <option value="0.10">10% - Ruim</option>
+                        <option value="0.05">5% - Péssimo</option>
+                    </select>
+                </p> 
+
+                <label for="people">
+                    <p>Quantas pessoas vão dividir a conta?</p>
+                </label>
+                <p>
+                    <input type="number" placeholder="1" name="people" id="people" class="pessoas"> pessoa(s)
+                </p>
+                <button type="submit" class="submitt">calcular</button>
+            </form>
+        </div>
+
+        <div class="gorjetat" id="totalTip">
+            <p>Gorjeta total:</p> 
+            <span id="tip">R$ 0.00</span> <a id="each">cada</a>
+           
+        </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

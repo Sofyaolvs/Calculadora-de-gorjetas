@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Cormorant&family=Libre+Bodoni&display=swap');
+:root{
+    --primary-color:#0c0429d2;
+    --secondary-color:rgb(134, 202, 227);
+    --tertuary-color:rgb(150, 162, 187); 
+}
+body{
+    background-color:var(--primary-color);
+    font-size: 15px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ #inicio{
+    height:525px;
+    width:360px;
+    margin:100px auto;
+    border-radius: 15px;
+    background-color: rgb(143, 143, 174);
+    box-shadow: 4px 3px 3px 2px var(--secondary-color);
+ }
+ .title{
+    border-top-style: ridge;
+    border-color: rgb(197, 215, 236);
+    background-color: var(--tertuary-color);
+    color:rgb(4, 4, 4);
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: normal;
+ }
+ .conta{
+    padding-left: 20px;
+    padding-right: 20px;
+ }
+ .forminput{
+    background-color: rgb(187, 188, 194);
+    width: 50px;
+    padding: 5px 5px 8px 8px;
+    border-radius: 10px;
+ }
+ .pessoas{
+   background-color: rgb(187, 188, 194);
+   width: 50px;
+   padding: 5px 5px 8px 8px;
+   border-radius: 10px;
+
+ }
+ .forminput:focus{
+    border: 3px solid rgb(64, 207, 114);
+    outline: none;
+ }
+ .formselect{
+    width: 180px;
+    padding:5px ;
+ }
+ .submitt{
+    border-radius: 10px;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    font-family:Cormorant;
+    font-style: rgb(31, 31, 71);
+    display: block;
+    margin: 30px auto;
+    background-color: var(--tertuary-color);
+    width: 200px;
+    height: 50px;
+    box-shadow: 2px 2px var(--secondary-color);
+ }
+ .gorjetat{
+   text-align: center;
+   color: black;
+   font-family: Cormorant;
+   font-size: 20px;
+   font-weight: bold;
+ }
